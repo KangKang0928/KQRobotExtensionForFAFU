@@ -1,5 +1,7 @@
 # KQRobotExtensionForFAFU
 
+## 基于[Native.Framework](https://github.com/Jie2GG/Native.Framework)
+
 ## 最近工作比较忙，先立flag，争取在高考结束前完成！！
 
 ## 功能(打钩才算完成)
