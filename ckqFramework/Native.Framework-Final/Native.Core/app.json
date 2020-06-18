@@ -1,0 +1,27 @@
+// 酷Q 的Json文件支持以 // 开头的注释。
+// 开发模式下，应用的 app.dll 及 app.json 文件须放在 dev/[appid]/ 目录下，应用 AppInfo 函数返回的内容须改为 appid
+// 如 appid=com.example.demo, 则dll及json文件需分别放在 dev/com.example.demo/app.dll、dev/com.example.demo/app.json
+// [重要] appid 规则见 https://cqp.im/v9/appid
+{
+  "ret": 1,
+  "apiver": 9,
+  "name": "福建农林大学新生群管理插件",
+  "version": "1.0.0",
+  "version_id": 1,
+  "author": "照相",
+  "description": "协助新生报考与管理群成员",
+  "event": [
+    {
+      "id": 1,
+      "type": 2,
+      "name": "群消息处理",
+      "function": "eventGroupMsg",
+      "priority": 30000
+    }
+  ],
+  "menu": [],
+  "status": [],
+  "auth": [
+    101 //发送群消息
+  ]
+}
